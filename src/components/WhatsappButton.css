@@ -1,0 +1,75 @@
+.whatsapp-float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50px;
+  padding: 8px 20px 8px 8px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  z-index: 1000;
+  transition: var(--transition-smooth);
+}
+
+.whatsapp-float:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+  background-color: #20BA56;
+}
+
+.whatsapp-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bruno-avatar {
+  width: 40px;
+  height: 40px;
+  background: white;
+  color: var(--color-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.whatsapp-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.whatsapp-text small {
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
+
+.whatsapp-icon {
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .whatsapp-float {
+    bottom: 20px;
+    right: 20px;
+    padding: 12px;
+  }
+  
+  .whatsapp-content {
+    display: none; /* Icon solo on mobile for space */
+  }
+  
+  .whatsapp-icon {
+    margin-left: 0;
+  }
+}
