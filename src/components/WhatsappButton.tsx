@@ -4,7 +4,7 @@ import './WhatsappButton.css';
 const WhatsappButton: React.FC = () => {
   return (
     <a
-      href="https://wa.me/593987798767?text=Hola%20Bruno,%20quisiera%20agendar%20una%20cita"
+      href="https://wa.me/593995633480?text=Hola%20Bruno,%20quisiera%20agendar%20una%20cita"
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-float animate-fade-in delay-3"

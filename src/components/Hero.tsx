@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
             "No pretendemos cambiar tu estilo, destacamos lo mejor de ti. Somos creadores de imagen."
           </p>
           <div className="hero-actions delay-2">
-            <a href="https://wa.me/593987798767?text=Hola%20Bruno,%20quisiera%20agendar%20una%20valoraci%C3%B3n" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            <a href="https://wa.me/593995633480?text=Hola%20Bruno,%20quisiera%20agendar%20una%20valoraci%C3%B3n" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
               Agendar Valoración
             </a>
             <a href="#servicios" className="btn btn-outline">
